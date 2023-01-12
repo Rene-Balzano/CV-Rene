@@ -18,38 +18,67 @@ header, main {
 
 .h2 {
     text-align: center;
-    background-color: black;
-    color: white;
-    padding: 20px;
+    background-color: gainsboro;
+    color: black;
+    
 }
 
 .üs1 {
-color: blueviolet;
+color: black;
 
 }
 
 .üs2 {
-    color: salmon;
+    color: black;
 }
 
 .üs-2 {
-    color: hotpink;
+    color: black;
 }
 
 .üs-4{
-    color: lemonchiffon;
+    color: black;
 }
 
 .üs-5{
-    color: brown;
+    color: black;
 }
 
 .header1{
     padding: 48px 16px;
+   
 
 }
 
 .main1{
     max-width: 800px;
     margin: 0 auto;
+    padding: 48px;
 }
+.nav-link {
+    padding: 4px 8px;
+    color: black;
+}
+
+.nav-link:hover {
+    color: black;
+    background-color: white;
+
+}
+
+.nav-link:active {
+    color:black;
+    background-color:black;
+}
+
+.nav-link + .nav-link{
+    margin-left: 16px;
+    
+}
+
+article + article {
+    border-top: solid grey;
+    margin-top: 48px;
+  }
+
+
