@@ -1,84 +1,81 @@
-html,body {
-    box-sizing: border-box;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    
-
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-h1, h2, h3 {
-    font-family: sans-serif;
-    font-size: 20px;
-  
+h1,
+h2,
+h3 {
+  font-family: sans-serif;
+  font-size: 20px;
 }
 
-header, main {
-    padding: 16px;
+header,
+main {
+  padding: 16px;
 }
 
 .h2 {
-    text-align: center;
-    background-color: gainsboro;
-    color: black;
-    
+  text-align: center;
+  background-color: gainsboro;
+  color: black;
 }
 
 .üs1 {
-color: black;
-
+  color: black;
 }
 
 .üs2 {
-    color: black;
+  color: black;
 }
 
 .üs-2 {
-    color: black;
+  color: black;
 }
 
-.üs-4{
-    color: black;
+.üs-4 {
+  color: black;
 }
 
-.üs-5{
-    color: black;
+.üs-5 {
+  color: black;
 }
 
-.header1{
-    padding: 48px 16px;
-   
-
+.header1 {
+  padding: 48px 16px;
 }
 
-.main1{
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 48px;
+.main1 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 48px;
 }
 .nav-link {
-    padding: 4px 8px;
-    color: black;
+  padding: 4px 8px;
+  color: black;
 }
 
 .nav-link:hover {
-    color: black;
-    background-color: white;
-
+  color: black;
+  background-color: white;
 }
-
 .nav-link:active {
-    color:black;
-    background-color:black;
+  color: black;
+  background-color: whitesmoke;
 }
 
-.nav-link + .nav-link{
-    margin-left: 16px;
-    
+.nav-link + .nav-link {
+  margin-left: 16px;
 }
 
 article + article {
-    border-top: solid grey;
-    margin-top: 48px;
-  }
+  border-top: solid grey;
+  margin-top: 48px;
+}
 
+.dance::after {
+  content: "🕺";
+}
 
